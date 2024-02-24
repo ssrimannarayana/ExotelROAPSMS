@@ -51,7 +51,7 @@ public class CallrecordingApiController {
 
 	@GetMapping("/testApi")
 	public String test() {
-		return "hi";
+		return "hi welcome to ROAP SMS";
 	}
 
 	@PostMapping("/ExotelSmsROAP")
